@@ -1,0 +1,15 @@
+package sixth;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class Prog6Test {
+
+	@Test
+	public void test() {
+		//public static StringBuffer removeDups(String[] str) 
+		//fail("Not yet implemented");
+	}
+
+}

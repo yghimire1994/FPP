@@ -1,0 +1,19 @@
+package four;
+
+public class Triangle {
+	
+	private double base;
+	private double height;
+	
+	
+	public Triangle(double lenth, breath) {
+		
+		this.length=length;
+		this.
+		
+		
+	}
+
+	
+
+}

@@ -1,0 +1,21 @@
+package customer_data;
+
+public class Main {
+	public static void main(String args[]) {
+		Address address1=new Address("1000 north 4th street","fairfield","Iowa","52557");
+		Address address2=new Address("1000 north 5th street","chicago","chicago","52559");
+		Address address3=new Address("1000 north 4th street","dettroit","michigan","52557");
+		
+		
+		Customer customer1=new Customer("yubraj","Ghimire","12345");
+		Customer customer2=new Customer("Sagar","Ghimire","54321");
+		
+		customer1.setBillingAddress(address1);
+		customer1.setShippingAddress(address2);
+		
+		
+		
+		
+	}
+
+}

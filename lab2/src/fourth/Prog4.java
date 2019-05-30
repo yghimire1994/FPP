@@ -1,0 +1,33 @@
+package fourth;
+
+public class Prog4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String myString = Data.records;
+		
+		String[] strArr=myString.split(":");
+		
+		for(int i=0;i<strArr.length;i++) {
+			System.out.println(strArr[i].substring(0,4));
+		}
+		
+		
+		//second method
+//		for(int i=0;i<strArr.length;i++) {
+//			String[] str=strArr[i].split(",");
+//		System.out.println(str[0]);
+//	}
+		
+		
+
+		
+		
+		
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,14 @@
+package four;
+
+public class Square {
+	private double radius;
+	
+	public Square(double radius) {
+		this.radius=radius;
+	}
+public double computeArea(double width, double length) {
+		
+		return Math.PI*radius*radius;
+
+}
+}

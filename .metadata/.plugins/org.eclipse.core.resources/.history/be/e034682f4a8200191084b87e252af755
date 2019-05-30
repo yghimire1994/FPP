@@ -1,0 +1,16 @@
+package four;
+
+public class Triangle {
+	
+	private double base;
+	private double height;
+	
+	
+	public double computeArea(double lenth, breath) {
+		
+		
+	}
+
+	
+
+}

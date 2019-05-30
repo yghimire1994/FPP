@@ -1,0 +1,26 @@
+package maxarr;
+
+public class MaxArray {
+
+	public static void main(String[] args) {
+		
+	int [] arry = {1,2,3,7,9,3,5,8,3,1};
+	int max = maxArray(arry);
+	System.out.println("The maximum Number is:"+max);
+		
+		// TODO Auto-generated method stub
+
+	}
+	
+	static int maxArray(int [] arry) {
+		
+		int max= arry[0];
+		for (int i=0;i<arry.length;i++) {
+			if(arry[i]>max) {
+				max=arry[i];
+			}
+		}
+		return max;
+	}
+
+}

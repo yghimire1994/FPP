@@ -1,0 +1,17 @@
+package four;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Triangle t = new Triangle(20,30);
+		
+		
+		
+		
+		
+		// TODO Auto-generated method stub
+
+	}
+
+}

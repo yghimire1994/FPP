@@ -1,0 +1,15 @@
+package exercise3;
+
+public class Math {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+	public static char[] pow(int i, int j) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

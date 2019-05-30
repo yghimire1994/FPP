@@ -1,0 +1,20 @@
+package third;
+
+public class Prog3 {
+
+	public static void main(String[] args) {
+		
+		float a= 1.27;
+		float b= 3.881;
+		float c= 9.6;
+		float sum = a + b + c;
+		int sumInt = (float) sum;
+		System.out.println("The sum in integer is:"+sumInt);]
+		System.out.println("The sum by Math.round is"+);
+		
+		
+		// TODO Auto-generated method stub
+
+	}
+
+}

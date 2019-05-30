@@ -1,0 +1,10 @@
+package four;
+
+public class Square {
+	private double radius;
+	
+	public Square(double radius) {
+		this.radius=radius;
+	}
+
+}

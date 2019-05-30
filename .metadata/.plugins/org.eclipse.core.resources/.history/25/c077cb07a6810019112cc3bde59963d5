@@ -1,0 +1,40 @@
+package customer_data;
+
+public class Customer {
+	private String firstName;
+	private String lastName;
+	private String ssn;
+	
+	private Address billingAddress;
+	private Address shippingAddress;
+	
+	public Customer(String firstName, String lastName, String ssn) {
+		this.firstName=firstName;
+		this.lastName=lastName;
+		this.ssn=ssn;
+	}
+	
+	//setter
+	
+	public void setBillingAddress(Address billingAddress) {
+		this.billingAddress=billingAddress;
+	}
+	public void setShippingAddress(Address shippingAddress) {
+		this.shippingAddress=shippingAddress;
+	}
+	
+	public Address getBillingAddress() {
+		return billingAddress;
+				
+	}
+	public Address getShippingAddress() {
+		return shippingAddress;
+	}
+	
+	public String toString() {
+		return street+" "+city+" "+state+" "+zipcode;
+	}
+	
+	
+
+}

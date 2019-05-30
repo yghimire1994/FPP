@@ -1,0 +1,11 @@
+package Random;
+
+public class Prog2 {
+
+	public static void main(String[] args) {
+		int x=RandomNumbers.getRandomInt();
+		int y=RandomNumbers.getRandomInt();
+
+	}
+
+}

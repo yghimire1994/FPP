@@ -1,0 +1,19 @@
+package sixth;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class Prog6Test {
+
+	@Test
+	public void test() {
+		//
+		//["horse","dog","cat"]
+		//public static StringBuffer removeDups(String[] str) 
+		//fail("Not yet implemented");
+		String[] str=["horse", "dog", "cat", "horse","dog"];
+		
+	}
+
+}

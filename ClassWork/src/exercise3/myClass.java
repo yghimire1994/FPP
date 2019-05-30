@@ -1,0 +1,21 @@
+package exercise3;
+
+public class myClass {
+	
+	private static int count=0;
+	public static int getcount() {
+		return count;
+	}
+	public myClass() {
+		++count;
+	}
+	public static void main(String [] args) {
+		
+		for(int i=0;i<10;i++) {
+			new myClass();
+		}
+		System.out.println(myClass.count);
+		System.out.println(Math.pow(5,2));
+	}
+
+}

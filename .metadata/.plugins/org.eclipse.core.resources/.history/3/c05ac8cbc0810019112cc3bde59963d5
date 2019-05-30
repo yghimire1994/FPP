@@ -1,0 +1,30 @@
+package fifth;
+
+import java.util.Scanner;
+
+public class Prog5 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter any string");
+		
+		String input=sc.nextLine();
+	String str1="";
+		for(int i=input.length;i<0;i--)
+		{
+			
+		}
+		System.out.println("output : "+str1);
+//		char [] torev = sc.nextLine();
+//		int len=torev.length();
+//		if(len>0) {
+//			System.out.println(char[len-1]);
+//			
+//		}
+//		
+		
+	}
+
+}

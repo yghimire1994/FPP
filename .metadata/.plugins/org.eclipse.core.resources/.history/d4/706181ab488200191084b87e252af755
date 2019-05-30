@@ -1,0 +1,11 @@
+package four;
+
+public class Triangle {
+	
+	private double lenth;
+	private double breath;
+	
+
+	
+
+}
