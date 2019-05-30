@@ -1,0 +1,35 @@
+package customer_data;
+public class Main {
+	public static void main(String args[]) {
+		Address address1=new Address("1000 north 4th street","fairfield","Iowa","52557");
+		Address address2=new Address("1000 north 5th street","chicago","abc state","52559");
+		Address address3=new Address("1000 north 4th street","dettroit","michigan","52557");
+		
+		
+		Customer customer1=new Customer("yubraj","Ghimire","12345");
+		Customer customer2=new Customer("Sagar","Ghimire","54321");
+		
+		customer1.setBillingAddress(address1);
+		customer1.setShippingAddress(address2);
+		
+		customer2.setBillingAddress(address2);
+		customer2.setShippingAddress(address3);
+		
+		Customer[] custArr=new Customer[2];
+		custArr[0]=customer1;
+		custArr[1]=customer2;
+		
+		
+		//array loop
+		for(int i=0;i<custArr.length;i++) {
+			if(custArr[i].getBillingAddress().getCity().equalsIgnoreCase("chicago")) {
+				System.out.println(custArr[i].toString());
+			}
+		}
+		
+		
+		
+		
+	}
+
+}
